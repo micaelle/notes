@@ -10,7 +10,7 @@ RUN echo exec awesome >> ~/.xinitrc
 RUN echo exit 0 >> ~/.xinitrc
 RUN chmod +x ~/.xinitrc
 
-RUN apt-get install -y xserver-xephyr
+#RUN apt-get install -y xserver-xephyr
 
 #RUN apt-get install -y x11vnc
 #RUN apt-get install -y xvfb
